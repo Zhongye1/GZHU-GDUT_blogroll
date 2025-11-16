@@ -30,9 +30,9 @@
 
 ## Lists
 
-| Name           | RSS                                 | HTML                        |
-| -------------- | ----------------------------------- | --------------------------- |
-| Zhongye's Blog | https://zhongye1.github.io/atom.xml | https://zhongye1.github.io/ |
+| Name           | RSS                                               | HTML                                       |
+| -------------- | ------------------------------------------------- | ------------------------------------------ |
+| Zhongye's Blog | https://zhongye1.github.io/Arknight-notes/rss.xml | https://zhongye1.github.io/Arknight-notes/ |
 
 ## OPML
 
