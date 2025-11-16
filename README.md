@@ -10,7 +10,7 @@
 
 聚合页面使用 Vue 框架编写，每天定时 0 点和 12 点，会通过 GitHub Action 自动集成和部署到 Cloudflare 上。
 
-聚合页面由 [@OrangeX4](https://github.com/OrangeX4) 和 [@Do1e](https://github.com/Do1e) 维护，如发现页面上有任何 Bug，欢迎在本 Repo 中提出 Issues。
+聚合页面由 [@Zhongye](https://github.com/Zhongye1) 维护，如发现页面上有任何 Bug，欢迎在本 Repo 中提出 Issue
 
 ## 聚合 RSS 订阅
 
@@ -30,9 +30,24 @@
 
 ## Lists
 
-| Name           | RSS                                               | HTML                                       |
-| -------------- | ------------------------------------------------- | ------------------------------------------ |
-| Zhongye's Blog | https://zhongye1.github.io/Arknight-notes/rss.xml | https://zhongye1.github.io/Arknight-notes/ |
+| Name           | RSS                                               | HTML                                                       |
+| -------------- | ------------------------------------------------- | ---------------------------------------------------------- |
+| Zhongye's Blog | https://zhongye1.github.io/Arknight-notes/rss.xml | https://zhongye1.github.io/Arknight-notes/                 |
+| Zhongye        | ---                                               | https://zhongye1.github.io/                                |
+| Fomalhaut      | https://www.fomal.cc/atom.xml                     | https://www.fomal.cc/                                      |
+| Eureka的小屋   | https://eureka1029.github.io/atom.xml             | https://eureka1029.github.io/                              |
+| miomoe         | ---                                               | [https://blog.miomoe.cn](https://blog.miomoe.cn/)          |
+| Carry          | ---                                               | https://blog.carry.fit/                                    |
+| doraemon       | ---                                               | https://doraemonblogs.github.io/                           |
+| 宇宇           | ---                                               | https://pic.yuyu.red/                                      |
+| XingJiのBlog   | https://love.xingji.fun/atom.xml                  | https://love.xingji.fun/                                   |
+| GZHU-193       | ---                                               | https://guangzhou-university-site-193.github.io/GZHU-SITE/ |
+| chonqin's Blog | ---                                               | https://chonqin.github.io/                                 |
+| syy.github.io  | ---                                               | https://sdfcwfe.github.io/syy.github.io/                   |
+| chonqin        | ---                                               | https://chonqin.github.io/                                 |
+| Zero One       |                                                   | https://sdfcwfe.github.io/syy.github.io/                   |
+
+
 
 ## OPML
 

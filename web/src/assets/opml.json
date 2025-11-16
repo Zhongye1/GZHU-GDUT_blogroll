@@ -3,5 +3,55 @@
     "title": "Zhongye's Blog",
     "xmlUrl": "https://zhongye1.github.io/Arknight-notes/rss.xml",
     "htmlUrl": "https://zhongye1.github.io/Arknight-notes/"
+  },
+  {
+    "title": "Zhongye",
+    "xmlUrl": "---",
+    "htmlUrl": "https://zhongye1.github.io/"
+  },
+  {
+    "title": "Fomalhaut",
+    "xmlUrl": "https://www.fomal.cc/atom.xml",
+    "htmlUrl": "https://www.fomal.cc/"
+  },
+  {
+    "title": "Eureka的小屋",
+    "xmlUrl": "https://eureka1029.github.io/atom.xml",
+    "htmlUrl": "https://eureka1029.github.io/"
+  },
+  {
+    "title": "Carry",
+    "xmlUrl": "---",
+    "htmlUrl": "https://blog.carry.fit/"
+  },
+  {
+    "title": "doraemon",
+    "xmlUrl": "---",
+    "htmlUrl": "https://doraemonblogs.github.io/"
+  },
+  {
+    "title": "宇宇",
+    "xmlUrl": "---",
+    "htmlUrl": "https://pic.yuyu.red/"
+  },
+  {
+    "title": "XingJiのBlog",
+    "xmlUrl": "https://love.xingji.fun/atom.xml",
+    "htmlUrl": "https://love.xingji.fun/"
+  },
+  {
+    "title": "GZHU-193",
+    "xmlUrl": "---",
+    "htmlUrl": "https://guangzhou-university-site-193.github.io/GZHU-SITE/"
+  },
+  {
+    "title": "chonqin's Blog",
+    "xmlUrl": "---",
+    "htmlUrl": "https://chonqin.github.io/"
+  },
+  {
+    "title": "syy.github.io",
+    "xmlUrl": "---",
+    "htmlUrl": "https://sdfcwfe.github.io/syy.github.io/"
   }
 ]

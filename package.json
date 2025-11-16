@@ -9,6 +9,7 @@
     "preview": "cd web && vite preview --port 5050"
   },
   "dependencies": {
+    "dompurify": "^3.3.0",
     "element-plus": "^2.11.8",
     "rss": "^1.2.2",
     "rss-parser": "^3.12.0",

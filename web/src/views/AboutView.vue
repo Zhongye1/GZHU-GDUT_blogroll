@@ -1,76 +1,87 @@
 <template>
-  <div class="about-page">
-    <h1>关于博客聚合平台</h1>
-    
-    <div class="content-section">
-      <h2>项目介绍</h2>
-      <p>
-        这是一个博客聚合网站，收集并展示来自不同作者和技术专家的博客文章。
-        我们的目的是建立一个技术分享平台，让有价值的内容更容易被发现和传播。
-      </p>
-      <p>
-        平台主要聚焦于技术领域，包括但不限于编程、软件开发、系统架构、人工智能等方向。
-        所有内容均来源于各个博主的公开博客，我们仅做聚合展示，版权归原作者所有。
-      </p>
-    </div>
+  <div id="container">
+    <div class="about-page">
+      <h1>关于博客聚合平台</h1>
+      <cards name="站长（Zhongye）" link="https://zhongye1.github.io/Arknight-notes"
+        avatar="https://avatars.githubusercontent.com/u/145737758?s=400&u=a77ba5dbc8f7c9fd54fe608100908cc6fddaee74&v=4"
+        descr="南漂中，广州大学大三就读" siteshot="https://pic2.zhimg.com/v2-6269d74b4dafe14781d03790e5a86b21_r.jpg" />
+      <div class="content-section">
+        <h2>介绍</h2>
+        <p>
+          广州大学&&广东工业大学 收集的同学们的 Blogroll 博客聚合平台，旨在为大家提供一个便捷的技术资源分享和交流平台。
+        </p>
+        <p>
 
-    <div class="content-section">
-      <h2>功能特点</h2>
-      <ul>
-        <li>聚合多个博客源，一站式阅读</li>
-        <li>智能分页，流畅浏览体验</li>
-        <li>分类整理，快速找到感兴趣的内容</li>
-        <li>定期更新，获取最新技术资讯</li>
-        <li>响应式设计，适配各种设备</li>
-        <li>简洁友好的界面设计</li>
-      </ul>
-    </div>
+        </p>
+      </div>
+      <div class="content-section">
+        <h2>加入该博客聚合站的站点：</h2>
+        <ul>
+          <li><a href="https://zhongye1.github.io/Arknight-notes" target="_blank">Arknight-notes</a> -
+            站长记录一些笔记的站点</li>
+          <li><a href="https://zhongye1.github.io" target="_blank">Zhongye</a> - 站长个人网站</li>
+          <li><a href="https://www.fomal.cc/" target="_blank">Fomalhaut</a> - Fomalhaut🥝</li>
+          <li><a href="https://eureka1029.github.io/" target="_blank">Eureka的小屋</a> - 水波</li>
+          <li><a href="https://blog.miomoe.cn" target="_blank">miomoe</a> - 鼠子</li>
+          <li><a href="https://blog.carry.fit/" target="_blank">Carry</a> - carry</li>
+          <li><a href="https://doraemonblogs.github.io/" target="_blank">doraemon</a> - doraemonblogs</li>
+          <li><a href="https://pic.yuyu.red/" target="_blank">宇宇</a> - yuyu</li>
+          <li><a href="https://love.xingji.fun/" target="_blank">XingJiのBlog</a> - 迄今所有人生都大写着失败，但不妨碍我继续向前✨</li>
+          <li><a href="https://guangzhou-university-site-193.github.io/GZHU-SITE/" target="_blank">GZHU-193</a> -
+            广州大学193号工作站</li>
+        </ul>
+      </div>
 
-    <div class="content-section">
-      <h2>技术架构</h2>
-      <p>
-        本网站使用现代前端技术构建：
-      </p>
-      <ul>
-        <li>Vue 3 Composition API</li>
-        <li>Vite 构建工具</li>
-        <li>Vue Router 实现页面路由</li>
-        <li>响应式设计，适配各种设备</li>
-        <li>使用开源组件提高开发效率</li>
-      </ul>
-    </div>
+      <!-- 补充的 cards 列表区：将 {% sitegroup %} 中的每个 {% site %} 转换为一个 <cards /> 组件实例 -->
+      <!-- 组件 props 映射：name → 站点名称, link → url, avatar → avatar, descr → description, siteshot → screenshot -->
+      <div class="cards-grid">
+        <cards name="柊野" link="https://zhongye1.github.io"
+          avatar="https://avatars.githubusercontent.com/u/145737758?s=400&u=a77ba5dbc8f7c9fd54fe608100908cc6fddaee74&v=4"
+          descr="个人网站" siteshot="https://pic3.zhimg.com/v2-55c6231e4d3866f19a4fbbf18c10a5f6_b.jpg" />
 
-    <div class="content-section">
-      <h2>如何贡献</h2>
-      <p>
-        如果您希望将自己的博客加入我们的聚合列表，请通过 GitHub 提交 Pull Request，
-        或者联系我们的维护团队。
-      </p>
-      <p>
-        同样欢迎对项目提出改进建议，或者帮助我们修复 bug 和添加新功能。
-        请访问我们的 GitHub 仓库了解更多信息。
-      </p>
-    </div>
-    
-    <div class="content-section">
-      <h2>免责声明</h2>
-      <p>
-        本网站仅为内容聚合平台，所有文章观点仅代表原作者个人观点，
-        与本站无关。如有任何问题，请联系原作者处理。
-      </p>
+        <cards name="Fomalhaut" link="https://www.fomal.cc/" avatar="https://source.fomal.cc/siteshot/www.fomal.cn.jpg"
+          descr="Fomalhaut🥝" siteshot="https://source.fomal.cc/siteshot/www.fomal.cc.webp" />
+        <cards name="Eureka的小屋" link="https://eureka1029.github.io/"
+          avatar="https://eureka1029.github.io/img/eureka.jpg" descr="水波"
+          siteshot="https://source.fomal.cc/siteshot/zfe.one.jpg" />
+        <cards name="miomoe" link="https://blog.miomoe.cn" avatar="https://q1.qlogo.cn/g?b=qq&nk=1778273540&s=100"
+          descr="鼠子" siteshot="https://pic4.zhimg.com/80/v2-d0522d3ea42af84d02f774794997e2b5_720w.webp" />
+        <cards name="Carry" link="https://blog.carry.fit/"
+          avatar="https://pica.zhimg.com/80/v2-18f519ce25edd6a6a98e967654809334_720w.webp" descr="carry"
+          siteshot="https://picx.zhimg.com/80/v2-7e8cb22f8ffb0dacbde85b68df1e3fff_720w.webp" />
+        <cards name="doraemon" link="https://doraemonblogs.github.io/"
+          avatar="https://doraemonblogs.github.io/img/favicon.jpg" descr="doraemonblogs"
+          siteshot="https://pic4.zhimg.com/80/v2-be92aca28520672f12aa6bdfd9ed31b5_720w.webp" />
+        <cards name="宇宇" link="https://pic.yuyu.red/"
+          avatar="https://free-img.400040.xyz/4/2024/08/31/66d3280d0c83b.jpg" descr="yuyu"
+          siteshot="https://picx.zhimg.com/80/v2-3f19f71abf129cbfd3d1398531eb9411_720w.webp" />
+        <cards name="XingJiのBlog" link="https://love.xingji.fun/"
+          avatar="https://i.p-i.vip/47/20240920-66ed7b168c38c.jpg" descr="迄今所有人生都大写着失败，但不妨碍我继续向前✨"
+          siteshot="https://i.p-i.vip/47/20240920-66ed7b6730ca9.png" />
+        <cards name="GZHU-193" link="https://guangzhou-university-site-193.github.io/GZHU-SITE/"
+          avatar="https://pic1.zhimg.com/80/v2-593dd0a3b84d023b3827b97e81e0242a_720w.webp" descr="广州大学193号工作站"
+          siteshot="https://picx.zhimg.com/v2-97d3c21993d620a296be9f86c15400cd_1440w.jpg" />
+      </div>
     </div>
   </div>
+
 </template>
 
 <script>
+import Cards from '../components/cards.vue';
+
 export default {
-  name: 'AboutView'
+  name: 'AboutView',
+  components: {
+    Cards
+  }
 }
 </script>
 
 <style scoped>
 .about-page {
-  max-width: 800px;
+  width: auto;
+  min-height: max-content;
   margin: 70px auto 0;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -100,5 +111,13 @@ export default {
 .content-section li {
   margin-bottom: 10px;
   line-height: 1.5;
+}
+
+/*cards 网格布局 */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
 }
 </style>

@@ -32,18 +32,13 @@ onUnmounted(() => {
       <span id="logo-left">
 
         <img id="logo" src="./assets/logo.png" alt="Logo" />
-        <span id="logo-text">GZHU-GDUT Blogroll</span>
+        <a id="logo-text" href="https://github.com/Zhongye1/GZHU-GDUT_blogroll">GZHU-GDUT Blogroll</a>
         <div style="width: 20px;"></div>
         <div class="navigation">
           <RouterLink to="/" class="nav-link">首页</RouterLink>
           <RouterLink to="/about" class="nav-link">关于</RouterLink>
         </div>
       </span>
-
-      <a id="logo-right" target="_blank" href="https://github.com/Zhongye1/GZHU-GDUT_blogroll">
-        <img id="logo-github" src="./assets/github.png" alt="Logo" />
-        <span id="logo-text">GitHub</span>
-      </a>
     </div>
   </header>
 

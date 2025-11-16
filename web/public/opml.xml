@@ -5,6 +5,16 @@
   <body>
 
   <outline title="Zhongye's Blog" xmlUrl="https://zhongye1.github.io/Arknight-notes/rss.xml" htmlUrl="https://zhongye1.github.io/Arknight-notes/" />
+  <outline title="Zhongye" xmlUrl="---" htmlUrl="https://zhongye1.github.io/" />
+  <outline title="Fomalhaut" xmlUrl="https://www.fomal.cc/atom.xml" htmlUrl="https://www.fomal.cc/" />
+  <outline title="Eureka的小屋" xmlUrl="https://eureka1029.github.io/atom.xml" htmlUrl="https://eureka1029.github.io/" />
+  <outline title="Carry" xmlUrl="---" htmlUrl="https://blog.carry.fit/" />
+  <outline title="doraemon" xmlUrl="---" htmlUrl="https://doraemonblogs.github.io/" />
+  <outline title="宇宇" xmlUrl="---" htmlUrl="https://pic.yuyu.red/" />
+  <outline title="XingJiのBlog" xmlUrl="https://love.xingji.fun/atom.xml" htmlUrl="https://love.xingji.fun/" />
+  <outline title="GZHU-193" xmlUrl="---" htmlUrl="https://guangzhou-university-site-193.github.io/GZHU-SITE/" />
+  <outline title="chonqin's Blog" xmlUrl="---" htmlUrl="https://chonqin.github.io/" />
+  <outline title="syy.github.io" xmlUrl="---" htmlUrl="https://sdfcwfe.github.io/syy.github.io/" />
 
   </body>
 </opml>

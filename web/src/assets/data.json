@@ -3,6 +3,16 @@
     "name": "Zhongye's Blog",
     "xmlUrl": "https://zhongye1.github.io/Arknight-notes/rss.xml",
     "htmlUrl": "https://zhongye1.github.io/Arknight-notes/",
+    "title": "2025-11-16-ES6相关",
+    "link": "https://zhongye1.github.io/Arknight-notes/posts/9503.html",
+    "summary": "<h3 id=\"ES6\"><a href=\"#ES6\" class=\"headerlink\" title=\"ES6\"></a>ES6</h3><h3 id=\"1、let-和-const\"><a href=\"#1、let-和-const\" class=\"headerlink\" ti",
+    "pubDate": "2025-11-16T09:21:25.000Z",
+    "pubDateYYMMDD": "2025-11-16"
+  },
+  {
+    "name": "Zhongye's Blog",
+    "xmlUrl": "https://zhongye1.github.io/Arknight-notes/rss.xml",
+    "htmlUrl": "https://zhongye1.github.io/Arknight-notes/",
     "title": "2025-11-07-关于软考高项网规",
     "link": "https://zhongye1.github.io/Arknight-notes/posts/53411.html",
     "summary": "<div class=\"table-container\">\n<table>\n<thead>\n<tr>\n<th>章节</th>\n<th>分值</th>\n<th>上午重要考点列举</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>网络基础概念<",
@@ -35,7 +45,7 @@
     "htmlUrl": "https://zhongye1.github.io/Arknight-notes/",
     "title": "2025-11-04-js常用方法",
     "link": "https://zhongye1.github.io/Arknight-notes/posts/36778.html",
-    "summary": "<h3 id=\"javaScript常用数组方法\"><a href=\"#javaScript常用数组方法\" class=\"headerlink\" title=\"javaScript常用数组方法\"></a>javaScript常用数组方法</h3><div class=\"table",
+    "summary": "<p>JavaScript 常用方法速查</p>\n<h3 id=\"数组\"><a href=\"#数组\" class=\"headerlink\" title=\"数组\"></a>数组</h3><div class=\"table-container\">\n<table>\n<thead>\n<t",
     "pubDate": "2025-11-04T07:29:35.000Z",
     "pubDateYYMMDD": "2025-11-04"
   },
@@ -190,13 +200,63 @@
     "pubDateYYMMDD": "2025-04-02"
   },
   {
-    "name": "Zhongye's Blog",
-    "xmlUrl": "https://zhongye1.github.io/Arknight-notes/rss.xml",
-    "htmlUrl": "https://zhongye1.github.io/Arknight-notes/",
-    "title": "SITE-193",
-    "link": "https://zhongye1.github.io/Arknight-notes/posts/4183.html",
-    "summary": "<p><img src=\"https://pic1.zhimg.com/v2-842db2fbcdb441bd2562cf457f8192b4_r.jpg\" alt=\"img\"></p>",
-    "pubDate": "2025-03-31T08:44:24.000Z",
-    "pubDateYYMMDD": "2025-03-31"
+    "name": "Eureka的小屋",
+    "xmlUrl": "https://eureka1029.github.io/atom.xml",
+    "htmlUrl": "https://eureka1029.github.io/",
+    "title": "算法学习",
+    "link": "http://example.com/2024/09/15/%E7%AE%97%E6%B3%95/",
+    "summary": "<h2 id=\"输入输出，取消同步流\"><a href=\"#输入输出，取消同步流\" class=\"headerlink\" title=\"输入输出，取消同步流\"></a>输入输出，取消同步流</h2><figure class=\"highlight c++\"><table><tr>",
+    "pubDate": "2024-09-15T12:38:47.000Z",
+    "pubDateYYMMDD": "2024-09-15"
+  },
+  {
+    "name": "Eureka的小屋",
+    "xmlUrl": "https://eureka1029.github.io/atom.xml",
+    "htmlUrl": "https://eureka1029.github.io/",
+    "title": "JAVA基础",
+    "link": "http://example.com/2024/09/05/java%E5%9F%BA%E7%A1%80/",
+    "summary": "<h1 id=\"基本知识\"><a href=\"#基本知识\" class=\"headerlink\" title=\"基本知识\"></a>基本知识</h1><h2 id=\"转义字符\"><a href=\"#转义字符\" class=\"headerlink\" title=\"转义字符\"></a",
+    "pubDate": "2024-09-05T13:38:47.000Z",
+    "pubDateYYMMDD": "2024-09-05"
+  },
+  {
+    "name": "Eureka的小屋",
+    "xmlUrl": "https://eureka1029.github.io/atom.xml",
+    "htmlUrl": "https://eureka1029.github.io/",
+    "title": "数据结构",
+    "link": "http://example.com/2024/09/02/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%841/",
+    "summary": "<h1 id=\"数据结构\"><a href=\"#数据结构\" class=\"headerlink\" title=\"数据结构\"></a>数据结构</h1><h2 id=\"1-关于算法效率\"><a href=\"#1-关于算法效率\" class=\"headerlink\" title=\"1",
+    "pubDate": "2024-09-02T13:38:47.000Z",
+    "pubDateYYMMDD": "2024-09-02"
+  },
+  {
+    "name": "Eureka的小屋",
+    "xmlUrl": "https://eureka1029.github.io/atom.xml",
+    "htmlUrl": "https://eureka1029.github.io/",
+    "title": "Python",
+    "link": "http://example.com/2024/07/21/Python%E5%9F%BA%E7%A1%80-%E5%B0%8F%E9%B1%BC/",
+    "summary": "<h2 id=\"初见Python\"><a href=\"#初见Python\" class=\"headerlink\" title=\"初见Python\"></a>初见Python</h2><figure class=\"highlight python\"><table><tr><td c",
+    "pubDate": "2024-07-21T15:33:47.000Z",
+    "pubDateYYMMDD": "2024-07-21"
+  },
+  {
+    "name": "Eureka的小屋",
+    "xmlUrl": "https://eureka1029.github.io/atom.xml",
+    "htmlUrl": "https://eureka1029.github.io/",
+    "title": "C++基础入门",
+    "link": "http://example.com/2024/05/16/C++%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/",
+    "summary": "<h1 id=\"C-基础入门\"><a href=\"#C-基础入门\" class=\"headerlink\" title=\"C++基础入门\"></a>C++基础入门</h1><h2 id=\"1-C-初识\"><a href=\"#1-C-初识\" class=\"headerlink\" ti",
+    "pubDate": "2024-05-16T13:38:47.000Z",
+    "pubDateYYMMDD": "2024-05-16"
+  },
+  {
+    "name": "Eureka的小屋",
+    "xmlUrl": "https://eureka1029.github.io/atom.xml",
+    "htmlUrl": "https://eureka1029.github.io/",
+    "title": "Markdown使用方法",
+    "link": "http://example.com/2024/04/21/Markdown%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/",
+    "summary": "<h1 id=\"Markdown-Typora-VSCode-超全教程\"><a href=\"#Markdown-Typora-VSCode-超全教程\" class=\"headerlink\" title=\"[Markdown+Typora&#x2F;VSCode 超全教程]\"></",
+    "pubDate": "2024-04-21T12:38:47.000Z",
+    "pubDateYYMMDD": "2024-04-21"
   }
 ]
