@@ -34,6 +34,12 @@ defineProps({
 <style scoped>
 a {
   color: #444950;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(18, 18, 18, 0.1);
 }
 
 .title {

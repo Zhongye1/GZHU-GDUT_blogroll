@@ -2,11 +2,12 @@ body {
   margin: 0;
   overflow-x: hidden;
   color: #2c323c;
-  background-color: #f6f6f6;
   font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif, Arial;
+  background-color: rgba(246, 246, 246, 0.9);
 }
 
-html body table td, html body table th {
+html body table td,
+html body table th {
   border: 1px solid #d6d6d6;
   padding: 6px 13px;
 }
@@ -46,16 +47,16 @@ html body table {
 }
 
 blockquote {
-margin: 20px auto;
-color: #555555;
-padding: 3px 3px 3px 12px;
-border-left: 8px solid #84b3ff;
-position: relative;
-background: #f0f0f0;
+  margin: 20px auto;
+  color: #555555;
+  padding: 3px 3px 3px 12px;
+  border-left: 8px solid #84b3ff;
+  position: relative;
+  background: #f0f0f0;
 }
 
 code {
-  font-family: Menlo,Monaco,Consolas,'Courier New',monospace;
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
   background-color: #f0f0f0;
   border-radius: 3px;
   padding: 3px;
@@ -136,14 +137,12 @@ a:hover {
   z-index: 100;
   overflow: hidden;
   background: #fff;
-  margin-bottom: 20px;
 }
 
 #header-inner {
   width: 1200px;
   padding-left: 30px;
-  height: 50px;
-  margin: auto;
+  height: 70px;
   display: flex;
   align-items: center;
 }
@@ -151,7 +150,9 @@ a:hover {
 #container {
   margin: auto;
   width: 1200px;
+  padding: 10px;
   overflow: hidden;
+  background-color: rgba(246, 246, 246, 0.9);
 }
 
 #main {
@@ -160,16 +161,12 @@ a:hover {
 }
 
 #sidebar {
-  -webkit-box-shadow: 0 1px 3px rgb(18 18 18 / 10%);
-  box-shadow: 0 1px 3px rgb(18 18 18 / 10%);
-  border-radius: 5px;
-  background-color: #fff;
   float: right;
   width: 30%;
 }
 
 #sidebar-content {
-  margin: 20px 30px;
+  margin: 5px 3px;
 }
 
 /* 适配窄框 */
@@ -177,8 +174,10 @@ a:hover {
 
   #container {
     width: 100%;
+    padding: 10px;
+    background-color: rgba(246, 246, 246, 0.9);
   }
-  
+
   #header-inner {
     width: 100%;
   }
@@ -197,4 +196,3 @@ a:hover {
     display: none;
   }
 }
-

@@ -23,7 +23,7 @@ defineProps({
   -webkit-box-shadow: 0 1px 3px rgb(18 18 18 / 10%);
   box-shadow: 0 1px 3px rgb(18 18 18 / 10%);
   border-radius: 5px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 20px 30px 20px 30px;
   margin: 0px 20px 20px 20px;
 }
