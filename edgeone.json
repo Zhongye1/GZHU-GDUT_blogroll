@@ -1,6 +1,6 @@
 {
   "build": {
-    "command": "cd web && npm install && npm run build",
+    "command": "cd web && npm install && npx vite build",
     "dir": "./web"
   },
   "deploy": {
