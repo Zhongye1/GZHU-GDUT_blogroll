@@ -1,7 +1,7 @@
 {
   "build": {
-    "command": "npm install && npm run build",
-    "dir": "./"
+    "command": "cd web && npm install && npm run build",
+    "dir": "./web"
   },
   "deploy": {
     "command": "",
