@@ -2,11 +2,11 @@
   "name": "blogroll",
   "version": "2.0.0",
   "scripts": {
-    "dev": "cd web && vite",
+    "dev": "cd web && npx vite",
     "update": "node update_files.js",
     "gen": "node index.js",
-    "build": "cd web && npm install && vite build",
-    "preview": "cd web && vite preview --port 5050"
+    "build": "cd web && npm install && npx vite build",
+    "preview": "cd web && npx vite preview --port 5050"
   },
   "dependencies": {
     "@cloudflare/kv-asset-handler": "^0.4.0",
