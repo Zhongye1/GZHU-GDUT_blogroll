@@ -1,0 +1,10 @@
+{
+  "build": {
+    "command": "npm run build",
+    "dir": "./web"
+  },
+  "deploy": {
+    "command": "",
+    "dir": "./web/dist"
+  }
+}
