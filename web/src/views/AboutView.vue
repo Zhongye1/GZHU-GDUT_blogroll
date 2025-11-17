@@ -55,12 +55,19 @@
         <cards name="宇宇" link="https://pic.yuyu.red/"
           avatar="https://free-img.400040.xyz/4/2024/08/31/66d3280d0c83b.jpg" descr="yuyu"
           siteshot="https://picx.zhimg.com/80/v2-3f19f71abf129cbfd3d1398531eb9411_720w.webp" />
-        <cards name="XingJiのBlog" link="https://love.xingji.fun/"
-          avatar="https://i.p-i.vip/47/20240920-66ed7b168c38c.jpg" descr="迄今所有人生都大写着失败，但不妨碍我继续向前✨"
-          siteshot="https://i.p-i.vip/47/20240920-66ed7b6730ca9.png" />
         <cards name="GZHU-193" link="https://guangzhou-university-site-193.github.io/GZHU-SITE/"
           avatar="https://pic1.zhimg.com/80/v2-593dd0a3b84d023b3827b97e81e0242a_720w.webp" descr="广州大学193号工作站"
           siteshot="https://picx.zhimg.com/v2-97d3c21993d620a296be9f86c15400cd_1440w.jpg" />
+      </div>
+
+      <!-- 自定义地图标记组件 -->
+      <div class="map-section">
+        <h2>访客地图</h2>
+        <div class="map-container">
+          <CustomMapMarker ref="mapComponent" :center="[113.2644, 33.1291]" :zoom="3"
+            api-key="0c6483b9c5139e71604e44480a002200" :enable-visitor-tracking="true"
+            @marker-cleared="handleMarkerCleared" @map-initialized="handleMapInitialized" />
+        </div>
       </div>
     </div>
   </div>
@@ -69,11 +76,22 @@
 
 <script>
 import Cards from '../components/cards.vue';
+import CustomMapMarker from '../components/CustomMapMarker.vue';
 
 export default {
   name: 'AboutView',
   components: {
-    Cards
+    Cards,
+    CustomMapMarker
+  },
+  methods: {
+
+    handleMapInitialized(map) {
+      console.log('地图初始化完成');
+      this.mapInstance = map;
+    },
+  },
+  mounted() {
   }
 }
 </script>
@@ -119,5 +137,34 @@ export default {
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 20px;
   margin-top: 20px;
+}
+
+.map-section {
+  margin-top: 30px;
+}
+
+.map-section h2 {
+  color: #444950;
+  border-bottom: 2px solid #84b3ff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.map-controls {
+  margin-top: 10px;
+}
+
+.map-controls button {
+  margin-right: 10px;
+  padding: 5px 15px;
+  background-color: #84b3ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.map-controls button:hover {
+  background-color: #6a9eff;
 }
 </style>

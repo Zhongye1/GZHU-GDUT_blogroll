@@ -26,3 +26,17 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+
+# Dependency directories
+/node_modules
+/.pnp.js
+.pnp.*
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+yarn-error.log
+
+.wrangler
+wrangler.toml
+wrangler-debug.log

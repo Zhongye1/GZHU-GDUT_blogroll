@@ -14,6 +14,16 @@ const handleMouseMove = (event) => {
 
 onMounted(() => {
   window.addEventListener('mousemove', handleMouseMove)
+
+  // 记录访客信息
+  fetch('/api/visitors', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  }).catch(error => {
+    console.error('Failed to track visitor:', error);
+  });
 })
 
 onUnmounted(() => {
@@ -35,14 +45,18 @@ onUnmounted(() => {
         <a id="logo-text" href="https://github.com/Zhongye1/GZHU-GDUT_blogroll">GZHU-GDUT Blogroll</a>
         <div style="width: 20px;"></div>
         <div class="navigation">
-          <RouterLink to="/" class="nav-link">首页</RouterLink>
+          <RouterLink to="/" class="nav-link">最新博客</RouterLink>
           <RouterLink to="/about" class="nav-link">关于</RouterLink>
         </div>
       </span>
     </div>
   </header>
 
-  <RouterView />
+  <RouterView v-slot="{ Component }">
+    <transition name="fade" mode="out-in">
+      <component :is="Component" />
+    </transition>
+  </RouterView>
 </template>
 
 <style>
@@ -91,5 +105,15 @@ onUnmounted(() => {
   background-position: center;
   background-repeat: no-repeat;
   transition: transform 0.1s ease-out;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

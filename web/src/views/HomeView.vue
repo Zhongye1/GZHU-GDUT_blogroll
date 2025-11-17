@@ -147,6 +147,10 @@ const handleSizeChange = (val) => {
   min-width: 40px;
 }
 
+.el-pager li {
+  margin: 0 2px;
+}
+
 .pagination-button:hover:not(:disabled) {
   background-color: #f5f5f5;
   border-color: #999;
