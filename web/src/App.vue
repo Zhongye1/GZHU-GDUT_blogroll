@@ -14,6 +14,16 @@ const handleMouseMove = (event) => {
 
 onMounted(() => {
   window.addEventListener('mousemove', handleMouseMove)
+
+  // 记录访客信息
+  fetch('/api/visitors', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  }).catch(error => {
+    console.error('Failed to track visitor:', error);
+  });
 })
 
 onUnmounted(() => {

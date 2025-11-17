@@ -7,3 +7,7 @@ compatibility_date = "2024-11-19"
 
 [site]
 bucket = "./web/dist"
+
+[[kv_namespaces]]
+binding = "vis_IP_track"
+id = "3f20abecc5d34ff5a9d060005df3aba9"
