@@ -5,7 +5,7 @@
     "dev": "cd web && vite",
     "update": "node update_files.js",
     "gen": "node index.js",
-    "build": "npm install && cd web && npm install && vite build",
+    "build": "npm install && cd web && npm install --no-save vite @vitejs/plugin-vue && vite build",
     "preview": "cd web && vite preview --port 5050"
   },
   "dependencies": {
