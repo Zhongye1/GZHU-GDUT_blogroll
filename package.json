@@ -7,7 +7,7 @@
     "gen": "node index.js",
     "build": "cd web && vite build",
     "preview": "cd web && vite preview --port 5050",
-    "deploy": "npx wrangler versions upload"
+    "deploy": "npx wrangler deploy"
   },
   "dependencies": {
     "@cloudflare/kv-asset-handler": "^0.4.0",
