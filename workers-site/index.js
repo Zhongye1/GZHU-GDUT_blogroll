@@ -1,5 +1,5 @@
 import { getAssetFromKV, mapRequestToAsset } from '@cloudflare/kv-asset-handler'
-import manifestJSON from '__STATIC_CONTENT_MANIFEST'
+
 
 /**
  * The DEBUG flag will do two things that help during development:

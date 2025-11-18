@@ -1,8 +1,0 @@
-{
-  "name": "blogroll",
-  "compatibility_date": "2025-11-17",
-  "assets": {
-    "directory": "./dist"
-  },
-  "main": "./workers-site/index.js"
-}
