@@ -5,6 +5,9 @@ workers_dev = true
 # route = "blogroll.njulug.org/*"
 compatibility_date = "2024-11-19"
 
+[assets]
+directory = "./web/dist"
+
 [site]
 bucket = "./web/dist"
 

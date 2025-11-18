@@ -38,5 +38,4 @@ package-lock.json
 yarn-error.log
 
 .wrangler
-wrangler.toml
 wrangler-debug.log
