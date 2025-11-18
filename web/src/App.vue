@@ -47,6 +47,7 @@ onUnmounted(() => {
         <div class="navigation">
           <RouterLink to="/" class="nav-link">最新博客</RouterLink>
           <RouterLink to="/about" class="nav-link">关于</RouterLink>
+          <a href="https://github.com/Zhongye1/GZHU-GDUT_blogroll" class="nav-link">GitHub</a>
         </div>
       </span>
     </div>

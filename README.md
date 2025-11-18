@@ -18,13 +18,11 @@
 
 https://github.com/Zhongye1/GZHU-GDUT_blogroll/blob/main/web/public/rss.xml
 
-
-
->- RSS 是一种提供联合和聚合 Web 内容的开放方法的协议。
->- RSS 是发布基于 Web 的内容定期更新的标准。
->- RSS 是一种基于 Internet 服务器上的一种 XML 文件类型的联合标准。
->- RSS 是一种 XML 应用程序，符合 W3C 的 RDF 规范，可通过 XML 进行扩展。
->- 您还可以从其他网站下载 RSS 源以在您的网站上显示更新的新闻项目，或者使用桌面或在线阅读器访问您最喜欢的 RSS 源。
+> - RSS 是一种提供联合和聚合 Web 内容的开放方法的协议。
+> - RSS 是发布基于 Web 的内容定期更新的标准。
+> - RSS 是一种基于 Internet 服务器上的一种 XML 文件类型的联合标准。
+> - RSS 是一种 XML 应用程序，符合 W3C 的 RDF 规范，可通过 XML 进行扩展。
+> - 您还可以从其他网站下载 RSS 源以在您的网站上显示更新的新闻项目，或者使用桌面或在线阅读器访问您最喜欢的 RSS 源。
 
 ## FAQ
 
@@ -58,8 +56,6 @@ https://github.com/Zhongye1/GZHU-GDUT_blogroll/blob/main/web/public/rss.xml
 | XingJi の Blog | https://love.xingji.fun/atom.xml                  | https://love.xingji.fun/                                   |
 | GZHU-193       | ---                                               | https://guangzhou-university-site-193.github.io/GZHU-SITE/ |
 | chonqin's Blog | ---                                               | https://chonqin.github.io/                                 |
-| syy.github.io  | ---                                               | https://sdfcwfe.github.io/syy.github.io/                   |
-| chonqin        | ---                                               | https://chonqin.github.io/                                 |
 | Zero One       |                                                   | https://sdfcwfe.github.io/syy.github.io/                   |
 
 ## OPML
