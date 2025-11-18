@@ -62,7 +62,7 @@
 
       <!-- 自定义地图标记组件 -->
       <div class="map-section">
-        <h2>访客地图</h2>
+        <h2>访客地图(基于Cloudflare Workers KV实现的访客IP追踪)</h2>
         <div class="map-container">
           <CustomMapMarker ref="mapComponent" :center="[113.2644, 33.1291]" :zoom="3"
             api-key="0c6483b9c5139e71604e44480a002200" :enable-visitor-tracking="true"
