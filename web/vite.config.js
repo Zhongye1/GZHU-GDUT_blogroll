@@ -15,7 +15,7 @@ export default defineConfig({
     __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: JSON.stringify(false)
   },
   build: {
-    outDir: '../dist',
+    outDir: './dist',
     rollupOptions: {
       output: {
         manualChunks: undefined,
