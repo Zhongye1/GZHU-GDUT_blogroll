@@ -1,4 +1,5 @@
 import { getAssetFromKV, mapRequestToAsset } from '@cloudflare/kv-asset-handler'
+import manifestJSON from '__STATIC_CONTENT_MANIFEST'
 
 /**
  * The DEBUG flag will do two things that help during development:
@@ -47,7 +48,8 @@ async function handleEvent(event) {
         bypassCache: true,
       };
     }
-
+    
+    // 将 manifestJSON 传递给 getAssetFromKV
     const page = await getAssetFromKV(event, options);
 
     // allow headers to be altered

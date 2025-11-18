@@ -5,12 +5,15 @@ workers_dev = true
 # route = "blogroll.njulug.org/*"
 compatibility_date = "2024-11-19"
 
-[assets]
-directory = "./web/dist"
 
 [site]
 bucket = "./web/dist"
 
 [[kv_namespaces]]
+binding = "__blogroll-workers_sites_assets"
+id = "9aaeac9632184a98afe8fe52841c05f8"
+
+[[kv_namespaces]]
+
 binding = "vis_IP_track"
 id = "3f20abecc5d34ff5a9d060005df3aba9"
