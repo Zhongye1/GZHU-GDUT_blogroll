@@ -2,8 +2,26 @@ name = "blogroll"
 main = "workers-site/index.js"
 account_id = "e566905d03f0f6cb11b2f6c6fdb43ea9"
 workers_dev = true
-# route = "blogroll.njulug.org/*"
-compatibility_date = "2024-11-19"
+compatibility_date = "2025-11-18"
+
+[observability]
+enabled = false
+head_sampling_rate = 1
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+persist = true
+invocation_logs = true
+
+[observability.traces]
+enabled = true
+persist = true
+head_sampling_rate = 1
+
+[env.production]
+# 使用新的 assets 配置代替旧的 site 配置
+assets = { path = "./web/dist" }
 
 
 [site]
@@ -17,3 +35,4 @@ id = "9aaeac9632184a98afe8fe52841c05f8"
 
 binding = "vis_IP_track"
 id = "3f20abecc5d34ff5a9d060005df3aba9"
+
